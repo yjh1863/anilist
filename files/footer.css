@@ -1,0 +1,19 @@
+/*
+*   For any questions check out https://github.com/Mentor404/anilist-css/issues
+*/
+
+/* footer */
+
+.wrap .footer{
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(0deg, rgb(var(--color-footer-background)) 0%, rgb(var(--color-footer-background),0) 200%) !important; 
+}
+
+.wrap .footer:hover{
+    background: linear-gradient(0deg, rgb(var(--color-footer-background)) 0%, rgb(var(--color-footer-background),0) 300%) !important; 
+}
+
+.wrap .footer .container .theme-selector{
+  display: none;
+}
