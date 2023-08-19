@@ -5,7 +5,7 @@
 /* colors */
 :root, .site-theme-dark, .site-theme-contrast, * {
 
-  --color-nav-transparent-background: var(--color-foreground),.0;
+  --color-nav-transparent-background: rgb(76, 51, 93, 0.5),.0;
   --color-nav-transparent-text: var(--color-text);
   --color-shadow: var(--color-foreground);
   --color-text-bright: var(--color-white);
