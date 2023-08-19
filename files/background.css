@@ -21,7 +21,6 @@ body {
 figure {
     float: left;
     display: inline-block;
-    width: 12px;
     height: auto;
 }
 
