@@ -13,3 +13,19 @@ body {
     background-repeat: no-repeat !important;
     background-size: 75% auto !important;
 }
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+figure {
+    float: left;
+    display: inline-block;
+    width: 12px;
+    height: auto;
+}
+
+p {
+    clear: both;
+}
