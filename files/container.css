@@ -1,3 +1,33 @@
+/* Container */
+.header-wrap > .nav-wrap {
+  max-width: var(--hokaze-maw);
+  margin: 0 auto;
+  border-radius: var(--hokaze-brt);
+  box-shadow: var(--hokaze-ns);
+  position: relative;
+}
+.nav > .link {
+  position: relative;
+}
+.nav > .link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 0;
+  background: rgb(var(--color-blue));
+  transition: all 0.3s ease-in-out;
+}
+.nav > .router-link-active::after {
+  left: 0;
+  width: 100%;
+  background: rgb(var(--color-blue-dim));
+}
+.nav > .link:hover::after {
+  left: 0;
+  width: 100%;
+  background: rgb(var(--color-blue));
 }
 .content.container {
   background: rgba(var(--color-foreground-grey-dark),var(--hokaze-bt));
@@ -7,3 +37,4 @@
   box-shadow: var(--hokaze-bs);
   backdrop-filter: blur(var(--hokaze-bl));
 }
+
