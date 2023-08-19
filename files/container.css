@@ -1,0 +1,9 @@
+}
+.content.container {
+  background: rgba(var(--color-foreground-grey-dark),var(--hokaze-bt));
+  max-width: var(--hokaze-maw);
+  padding: var(--hokaze-pdh);
+  border-radius: var(--hokaze-brb);
+  box-shadow: var(--hokaze-bs);
+  backdrop-filter: blur(var(--hokaze-bl));
+}
