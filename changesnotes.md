@@ -4,3 +4,5 @@ background.css - image when window changes size will adjust (get it to a fixed s
 
 colour-theme-2.css - representing the black overlay to the negative space of the site
      -> renamed to colour-theme.css [deleted original colour-theme.css -> only a red theme]
+
+feed.css - stretching entries to fill up whole row
